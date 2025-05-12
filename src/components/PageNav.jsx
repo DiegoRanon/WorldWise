@@ -6,7 +6,9 @@ import styles from "./PageNav.module.css";
 export default function PageNav() {
   return (
     <nav className={styles.nav}>
+      <Link to="/">
       <Logo />
+      </Link>
       <ul>
         <li>
           <NavLink to="/pricing">Pricing</NavLink>
