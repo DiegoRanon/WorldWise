@@ -18,7 +18,7 @@ export default function CityItem({ city }) {
   return (
     <li>
       <Link
-        className={`${styles.cityItem} ${id === currentCity.id ? styles["cityItem--active"] : ""}`}
+        className={`${styles.cityItem} ${id === currentCity?.id ? styles["cityItem--active"] : ""}`}
         to={`/app/cities/${id}`}
       >
         <span className={styles.emoji}>{emoji}</span>
