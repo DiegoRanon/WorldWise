@@ -7,7 +7,7 @@ export default function PageNav() {
   return (
     <nav className={styles.nav}>
       <Link to="/">
-      <Logo />
+        <Logo />
       </Link>
       <ul>
         <li>
