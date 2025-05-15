@@ -44,9 +44,6 @@ export default function Map() {
   return (
     <div
       className={styles.mapContainer}
-      onClick={() => {
-        navigate("form");
-      }}
     >
       {!geolocationPosition && (
         <Button type="position" onClick={getPosition}>
